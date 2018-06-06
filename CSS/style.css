@@ -1,3 +1,30 @@
- {
-  font-weight:bold;
-}
+#fondbleu {
+  margin-top: 0px;
+  width: auto;
+  height: 200px;
+  background-color: #2574a9;
+  padding-left: 1.75%;
+  padding-top: 1.75%;
+  }
+  #fondtbleu{
+    max-width: 10%;
+    height: auto;
+    margin: 2%;
+    background-color: #2574a9;
+  }
+  #fondviolet {
+  margin-top: 0px;
+  width: auto;
+  height: 200px;
+  background-color: #9a12b3;
+  padding-left: 1.75%;
+  padding-top: 1.75%;
+  }
+  #fondrose {
+  margin-top: 0px;
+  width: auto;
+  height: 200px;
+  background-color: #db0a5b;
+  padding-left: 1.75%;
+  padding-top: 1.75%;
+  }
