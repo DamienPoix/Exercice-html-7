@@ -6,27 +6,26 @@
     <title>Exercice 7 HTML</title>
   </head>
   <body>
+    <fieldset id="fondbleu">
+      <legend id="fondbleu">Votre identité</legend>
     <ol>
-    <span id="fondtbleu">Votre identité</span>
-    <div id="fondbleu">
       <li>Nom :<input type="text"value="Nom"/> </li>
       <li>Prénom :<input type="text"value="Prénom"/></li>
       <li>Adresse mail :<input type="mail"value="Adresse mail"/></li>
-   </div>
   </ol>
+</fieldset>
+<fieldset id="fondtviolet">
+  <legend id="fondtviolet">Adresse de livraison</legend>
   <ol>
-   <span id="fondtviolet">Adresse de livraison</span>
-   <div id="fondviolet">
-     <li>Adresse :<textarea rows="6" cols="30"> </textarea> </li>
+     <li>Adresse :<textarea rows="6" cols="25"> </textarea> </li>
      <li>Code postal :<input type="text" value="Code postal"/></li>
      <li>Ville :<input type="text" value="Ville"/></li>
-   </div>
   </ol>
-<div>
+  </fieldset>
+  <fieldset id="fondrose">
+    <legend id="fondrose">Information de réglement</legend>
 <form method="get">
   <ol>
-    <span id="fondtrose">Information de réglement</span>
-    <div id="fondrose">
    <li>Type de carte bancaire utilisé:
      <ul>
        <li>
@@ -43,8 +42,7 @@
    <li>Code de sécurité :<input type="text" Value="Code de sécurité"/></li>
    <li>Nom du titulaire :<input type="text" value="Nom du titulaire"/></li>
  </ol>
- </div>
-</div>
-
+</fieldset>
+ <input type="button" value="J'achète !"/>
   </body>
 </html>
