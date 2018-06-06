@@ -10,3 +10,7 @@
  #puce{
    list-style: none;
  }
+input{
+  background-color:#FFF3F3;
+  margin: 1px;
+}
