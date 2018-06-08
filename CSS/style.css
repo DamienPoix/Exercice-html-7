@@ -1,16 +1,12 @@
 #fondbleu {
-  background-color: #2574a9;
-  }
-  #fondrose {
-  background-color: #db0a5b;
-  }
-  #fondtviolet{
-    background-color: #9a12b3;
-  }
- #puce{
-   list-style: none;
- }
-input{
-  background-color:#FFF3F3;
-  margin: 1px;
+background-color: #2574a9;
+}
+#fondrose {
+background-color: #db0a5b;
+}
+#fondtviolet{
+background-color: #9a12b3;
+}
+#puce{
+list-style: none;
 }
